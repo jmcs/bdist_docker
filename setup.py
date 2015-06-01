@@ -14,7 +14,7 @@ def get_long_description():
 
 
 setup(name='bdist_docker',
-      version='0.1',
+      version='0.1.1',
       description='Distutils extension command to build docker images for python applications.',
       long_description=get_long_description(),
       classifiers=[
