@@ -55,4 +55,4 @@ class bdist_docker(Command):
         finally:
             # cleanup the docker build files
             logger.info('Cleaning up the build directory')
-            rmtree('.docker_build')
+            rmtree('.docker_data')
